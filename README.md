@@ -1,5 +1,5 @@
 # OANet(Geometry Matching)
-This repo contains code for our ICCV 2019 paper [Learning Two-View Correspondences and Geometry Using Order-Aware Network](https://arxiv.org/abs/1908.04964).
+This repo contains code for ICCV 2019 paper [Learning Two-View Correspondences and Geometry Using Order-Aware Network](https://arxiv.org/abs/1908.04964).
 
 ## Data Prepare
 
