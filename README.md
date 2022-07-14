@@ -68,7 +68,7 @@ Don't forget to modify config.py, you should modify it according to your environ
 
 ## Contribution
 
-1. The repository has re-integrated the code.
+1. The repository has **re-integrated** the code.
 
 2. Add **tensorboard** tool to display loss convergence in real time. 
 
