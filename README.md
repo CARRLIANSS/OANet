@@ -46,7 +46,7 @@ tar -xvf sift-gl3d.tar.gz
 
 ## Train & Test
 
-1. If you have multiple gpus, it is recommended to use 'train_multi_gpu.py' training. `train_single_gpu.py` is recommended for debugging.
+1. If you have multiple gpus, it is recommended to use `train_multi_gpu.py` training. `train_single_gpu.py` is recommended for debugging.
 
 ```
 # train by multi gpu
