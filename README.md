@@ -74,7 +74,9 @@ Don't forget to modify config.py, you should modify it according to your environ
 
 3. Provides `single-gpu` and `multi-gpu` training scripts, using DDP distribution **greatly** increases the utilization of gpu.
 
-4. Add many comments to facilitate the understanding of the code.
+4. Use epoch instead of iteration when training.
+
+5. Add many comments to facilitate the understanding of the code.
 
 ## Acknowledgement
 
