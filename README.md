@@ -72,7 +72,7 @@ Don't forget to modify config.py, you should modify it according to your environ
 
 2. Add `tensorboard` tool to display loss convergence in real time. 
 
-3. Provides `single-gpu` and `multi-gpu` training scripts, using DDP distribution greatly increases the utilization of gpu.
+3. Provides `single-gpu` and `multi-gpu` training scripts, using DDP distribution **greatly** increases the utilization of gpu.
 
 4. Add many comments to facilitate the understanding of the code.
 
