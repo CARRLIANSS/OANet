@@ -30,7 +30,7 @@ def train_one_epoch(model, optimizer, data_loader, conf, device, epoch, logger_t
         loss_val = []
 
         for i in range(len(res_logits)):
-            loss_i, geo_loss, cla_loss, l2_loss, _, _ = loss_function.run(step, data, res_logits[i], res_e_hat[i])
+            loss_i, geo_loss, cla_loss, l2_loss, _, _ = loss_function.run(step, train_data, res_logits[i], res_e_hat[i])
             loss += loss_i
             loss_val += [geo_loss, cla_loss, l2_loss]
 
