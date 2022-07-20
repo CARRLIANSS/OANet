@@ -34,7 +34,6 @@ def train_one_epoch(model, optimizer, data_loader, conf, device, epoch, logger_t
             loss += loss_i
             loss_val += [geo_loss, cla_loss, l2_loss]
 
-        optimizer.zero_grad()
         loss.backward()
 
         loss = reduce_value(loss, average=True)
